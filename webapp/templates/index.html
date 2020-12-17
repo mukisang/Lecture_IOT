@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<title>IOT Project</title>
+	</head>
+	<body>
+		<H2>Taking Picture</H2>
+		<hr>
+		<button><a href="{{url_for('taking_picture')}}">Taking Picture</a></button><br>
+		<H2>LCD </H2>
+		<form name="LCD" method="POST">
+			<input name="LCD">
+			<input type="submit">
+		</form>
+		<H2>7 segments</H2>
+		<form name="seg7" method="POST">
+			<input type="number" min="0" max="9" name="seg7">
+			<input type="submit">
+		</form>
+	</body>
+</html>
